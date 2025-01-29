@@ -57,7 +57,7 @@
         <div class="heart">
             <i class="fas fa-heart"></i>
         </div>
-        <button class="button" id="yesButton">Yes, I Will!</button>
+        <button class="button" id="yesButton">Yes!</button>
         <button class="button" id="noButton">No!</button>
         <p id="thankYouMessage" class="hidden text-xl text-red-500 mt-4">Thank you! See you on 14th February!</p>
     </div>
@@ -68,7 +68,7 @@
         });
 
         document.getElementById('noButton').addEventListener('click', function() {
-            this.innerText = 'Yes, I Will!';
+            this.innerText = 'Yes!';
             document.getElementById('thankYouMessage').classList.remove('hidden');
         });
     </script>
