@@ -16,7 +16,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             display: inline-block;
             padding: 30px;
-            max-width: 600px;
+            max-width: 800px;
             margin: auto;
         }
         h1 {
@@ -67,18 +67,6 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Will You Be My Valentine?</h1>
-        <p>Dear Heidi Ong,</p>
-        <p>You make my heart skip a beat and my days brighter. I can't imagine a better way to celebrate this special day than with you. Will you be my Valentine?</p>
-        <div class="heart">
-            <i class="fas fa-heart"></i>
-        </div>
-        <button class="button" id="yesButton">Yes!</button>
-        <button class="button" id="noButton">No!</button>
-        <p id="thankYouMessage" class="hidden text-xl text-red-500 mt-4">Thank you! See you on 14th February!</p>
-    </div>
-
     <script>
         document.getElementById('yesButton').addEventListener('click', function() {
             document.getElementById('thankYouMessage').classList.remove('hidden');
