@@ -67,16 +67,6 @@
     </style>
 </head>
 <body>
-    <script>
-        document.getElementById('yesButton').addEventListener('click', function() {
-            document.getElementById('thankYouMessage').classList.remove('hidden');
-        });
-
-        document.getElementById('noButton').addEventListener('click', function() {
-            this.innerText = 'Yes!';
-            document.getElementById('thankYouMessage').classList.remove('hidden');
-        });
-    </script>
 <div class="row">
  <div class="column">
     <img src="foto1.jpg" alt="Forest" style="width:100%">
@@ -94,6 +84,16 @@
         <button class="button" id="yesButton">Yes!</button>
         <button class="button" id="noButton">No!</button>
         <p id="thankYouMessage" class="hidden text-xl text-red-500 mt-4">Thank you! See you on 14th February!</p>
+         <script>
+        document.getElementById('yesButton').addEventListener('click', function() {
+            document.getElementById('thankYouMessage').classList.remove('hidden');
+        });
+
+        document.getElementById('noButton').addEventListener('click', function() {
+            this.innerText = 'Yes!';
+            document.getElementById('thankYouMessage').classList.remove('hidden');
+        });
+    </script>
     </div>
   <div class="column">
     <img src="zoo.jpeg" alt="Forest" style="width:100%">
